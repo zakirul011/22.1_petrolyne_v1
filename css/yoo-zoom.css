@@ -1,0 +1,18 @@
+/* yoo zoom */
+.yoo-zoom {
+   overflow: hidden;
+   cursor: crosshair;
+   position: relative;
+   z-index: 2;
+}
+.yoo-zoom-img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: .1s ease;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	background: #fff;
+}
